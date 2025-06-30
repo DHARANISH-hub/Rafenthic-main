@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog - Rafenthic</title>
+    <!-- Copy your CSS link(s) from index.html here -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Inline styles for demonstration; move to your CSS file if needed */
+        .blog-banner {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        .blog-thumbnails {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 24px;
+            padding: 40px 5vw;
+            justify-content: center;
+        }
+
+        .blog-thumb {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            width: 320px;
+            overflow: hidden;
+            text-decoration: none;
+            color: inherit;
+            transition: box-shadow 0.2s;
+        }
+
+        .blog-thumb:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+        }
+
+        .blog-thumb img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .blog-thumb-content {
+            padding: 18px;
+        }
+
+        .blog-thumb-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .blog-thumb-desc {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        /* Footer styles */
+        footer {
+            background: #dcc9ff;
+            /* matte black */
+            color: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="blog-banner">
+        <img src="blog-banner.jpg" alt="Rafenthic Blog Banner" style="width: 100%; height: auto;">
+    </div>
+
+    <main>
+        <section class="blog-thumbnails">
+            <a href="blogs/blog1.html" class="blog-thumb">
+                <img src="blogs/blogs-thumbnails/blog1.jpg" alt="Blog Post 1">
+                <div class="blog-thumb-content">
+                    <div class="blog-thumb-title">Launch Your Startup with Confidence</div>
+                </div>
+            </a>
+            <a href="blogs/blog2.html" class="blog-thumb">
+                <img src="blogs/blogs-thumbnails/blog2.webp" alt="Blog Post 1">
+                <div class="blog-thumb-content">
+                    <div class="blog-thumb-title">The Power of Digitalization for Startups</div>
+                </div>
+            </a>
+            <a href="blogs/blog3.html" class="blog-thumb">
+                <img src="blogs/blogs-thumbnails/blog2.webp" alt="Blog Post 1">
+                <div class="blog-thumb-content">
+                    <div class="blog-thumb-title">Top 5 Mistakes Startups Make in Their First Year</div>
+                </div>
+            </a>
+            <a href="blogs/blog4.html" class="blog-thumb">
+                <img src="blogs/blogs-thumbnails/blog2.webp" alt="Blog Post 1">
+                <div class="blog-thumb-content">
+                    <div class="blog-thumb-title">How Branding Can Make or Break Your New Business</div>
+                </div>
+            </a>
+            <a href="blogs/blog5.html" class="blog-thumb">
+                <img src="blogs/blogs-thumbnails/blog2.webp" alt="Blog Post 1">
+                <div class="blog-thumb-content">
+                    <div class="blog-thumb-title">Website Essentials for New Businesses: What Every Startup Needs</div>
+                </div>
+            </a>
+            <a href="blogs/blog6.html" class="blog-thumb">
+                <img src="blogs/blogs-thumbnails/blog2.webp" alt="Blog Post 1">
+                <div class="blog-thumb-content">
+                    <div class="blog-thumb-title">Why Your Startup Needs a Digital Marketing Strategy from Day One</div>
+                </div>
+            </a>
+            <a href="blogs/blog7.html" class="blog-thumb">
+                <img src="blogs/blogs-thumbnails/blog2.webp" alt="Blog Post 1">
+                <div class="blog-thumb-content">
+                    <div class="blog-thumb-title">Top Mistakes Startups Make When Going Digital</div>
+                </div>
+            </a>
+        </section>
+    </main>
+
+
+    <footer>
+        <p> &copy; 2024 Rafenthic. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
